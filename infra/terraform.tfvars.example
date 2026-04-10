@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill in your values.
+
+project_id       = "my-gcp-project-id"
+machine_type     = "n1-standard-8"
+disk_size_gb     = 100
+
+ssh_public_key   = "ssh-ed25519 AAAAC3... you@host"
+allowed_ssh_cidr = "0.0.0.0/0"

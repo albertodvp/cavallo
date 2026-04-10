@@ -1,0 +1,35 @@
+# OpenTofu / Terraform local state — never commit this
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Local plugin/module cache
+.terraform/
+.tofu/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Override files (local developer overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Nix result symlinks
+result
+result-*
+
+# Editor noise
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
